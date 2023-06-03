@@ -72,9 +72,9 @@ function DeleteBtn({ onClick }) {
             easing: "linear",
             delay: 4000,
             complete: () => {
-              updateText("Cleared");
+              updateText("Submitted");
               setTimeout(() => {
-                updateText("Delete");
+                updateText("Submit");
                 reset();
               }, 3000);
             },

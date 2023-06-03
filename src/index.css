@@ -76,6 +76,12 @@ margin-bottom: 10%;
   width: 90%;
 }
 
+.clearBtn{
+  margin-top: 2%;
+font-family:Questrial !important; 
+background-color: red !important;
+}
+
 .submitContainer {
   align-items: center;
   border-radius: 26px;
